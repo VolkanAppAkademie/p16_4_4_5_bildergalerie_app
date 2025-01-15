@@ -6,7 +6,12 @@ void main() {
   runApp(MyApp());
 }
 
-class MyApp extends StatelessWidget {
+class MyApp extends StatefulWidget {
+  @override
+  State<MyApp> createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -38,7 +43,7 @@ class MainScreen extends StatelessWidget {
             return GestureDetector(
               onTap: () => _showBottomSheet(context, item),
               child: GridTile(
-                child: Image.asset(item.imageUrl, fit: BoxFit.cover),
+                child: Image.asset(item.images, fit: BoxFit.cover),
               ),
             );
           },
@@ -69,7 +74,7 @@ class MainScreen extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Image.asset(item.imageUrl),
+              Image.asset(item.images),
               SizedBox(height: 10),
               Text(
                 'Aufnahmedatum: ${item.dateTaken.toLocal()}',
