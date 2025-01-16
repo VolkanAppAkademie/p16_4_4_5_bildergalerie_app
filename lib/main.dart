@@ -38,6 +38,10 @@ class _MyAppState extends State<MyApp> {
         appBar: AppBar(
           backgroundColor: const Color.fromARGB(255, 73, 3, 3),
           title: Text('MyGallery'),
+          titleTextStyle: TextStyle(
+              fontSize: 18.0,
+              fontWeight: FontWeight.bold,
+              color: Color.fromARGB(255, 255, 255, 255)),
         ),
         body: _screens[_selectedIndex],
         bottomNavigationBar: BottomNavigationBar(

@@ -17,6 +17,7 @@ class InfoScreen extends StatelessWidget {
             SizedBox(height: 16.0),
             Text(
               'Kaya Müller',
+              textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.bold,
@@ -25,6 +26,7 @@ class InfoScreen extends StatelessWidget {
             ),
             Text(
               'Fotograf',
+              textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 16,
                 fontWeight: FontWeight.bold,
