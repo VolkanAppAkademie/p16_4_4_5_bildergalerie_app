@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:p16_4_4_5_bildergalerie_app/galleryData.dart';
 import 'package:p16_4_4_5_bildergalerie_app/galleryTile.dart';
-import 'package:p16_4_4_5_bildergalerie_app/main2.dart';
 
 class GalleryGrid extends StatelessWidget {
   const GalleryGrid({super.key});

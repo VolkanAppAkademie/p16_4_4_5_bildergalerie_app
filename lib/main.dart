@@ -1,10 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:p16_4_4_5_bildergalerie_app/galleryGrid.dart';
-import 'package:p16_4_4_5_bildergalerie_app/galleryData.dart';
-import 'package:p16_4_4_5_bildergalerie_app/galleryItem.dart';
-import 'package:p16_4_4_5_bildergalerie_app/profile_screen.dart';
-
-import 'detailsScreen.dart';
+import 'package:p16_4_4_5_bildergalerie_app/profileScreen.dart';
 
 void main() {
   runApp(const MyGalleryApp());
