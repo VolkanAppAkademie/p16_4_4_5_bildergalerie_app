@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:p16_4_4_5_bildergalerie_app/detailsScreen.dart';
-import 'package:p16_4_4_5_bildergalerie_app/gallery_item.dart';
+import 'package:p16_4_4_5_bildergalerie_app/galleryItem.dart';
 
 class GalleryTile extends StatelessWidget {
   final GalleryItem item;
@@ -43,7 +43,7 @@ class GalleryTile extends StatelessWidget {
                   style: const TextStyle(
                     color: Colors.white,
                     fontWeight: FontWeight.bold,
-                    fontSize: 16,
+                    fontSize: 12,
                   ),
                 ),
               ),

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:p16_4_4_5_bildergalerie_app/galleryGrid.dart';
-import 'package:p16_4_4_5_bildergalerie_app/gallery_data.dart';
-import 'package:p16_4_4_5_bildergalerie_app/gallery_item.dart';
+import 'package:p16_4_4_5_bildergalerie_app/galleryData.dart';
+import 'package:p16_4_4_5_bildergalerie_app/galleryItem.dart';
 import 'package:p16_4_4_5_bildergalerie_app/profile_screen.dart';
 
 import 'detailsScreen.dart';
